@@ -35,6 +35,6 @@ FROM backers as b
 LEFT JOIN campaign as c
 ON c.cf_id = b.cf_id
 WHERE c.outcome = 'live'
-ORDER BY b.last_name ASC;
+ORDER BY b.last_name ASC, email;
 
 SELECT * FROM email_backers_remaining_goal_amount
