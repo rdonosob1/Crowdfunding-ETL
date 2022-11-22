@@ -16,6 +16,6 @@ The next step will consist in moving to load the data into a database. We'll get
 
 After that, we can create a new database in pgAdmin and create the tables by using the schema and right after that we may be able to load the data into database using pgAdmin to import our saved CSV files.  
 
-###Note: The company has just received a new dataset that contains information about the backers who’ve pledged to the live projects which Independent Funding wants us to be included in order to know how much of the goal to be pledged remains. 
+**Note:** The company has just received a new dataset that contains information about the backers who’ve pledged to the live projects which Independent Funding wants us to be included in order to know how much of the goal to be pledged remains. 
  
 Finally, we may be able to perform a data analysis on the database by using SQL queries to further reach their contacts informing them how much of the goal amount is remaining for each campaign they have already pledged.  For visualization purposes we can order our data in descending order by each live campaign. 
